@@ -1,0 +1,85 @@
+.efficiencyOffice{
+	width:1205px;
+	height:410px;
+	margin:20px auto 40px;
+}
+.rightContent{
+	width:225px;
+	height:410px;
+	float:right;
+}
+.topContent{
+	width:225px;
+	height: 142px;
+	background-color: #D486E7;
+}
+.topContent ol li{
+	list-style: none;
+	padding-top:10px;
+	margin-left:20px ;
+	
+}
+.topContent ol li a{
+	color:white;
+	font-size: 14px;
+}
+.topContent ol li a:hover{
+	text-decoration: underline;
+}
+.bottomContent1{
+	width:225px;
+	height: 268px;
+	background-image: url(../img/imgsize.ph.126.neut.jpg);
+	background-size: 225px 268px;
+}
+.leftBigContent{
+	width:960px;
+	height:410px;
+	float: left;
+}
+.Content1{
+	width:470px;
+	height:195px;
+	margin-right: 20px;
+	margin-bottom:20px;
+	margin-bottom:px;
+	float: left;
+}
+.Content2{
+	width:225px;
+	height:195px;
+	float: left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.Content2:hover{
+	transform: scale(1.1);
+}
+.Content3{
+	width:225px;
+	height:195px;
+	margin-bottom:20px;
+	float: left;
+}
+.Content3:hover{
+	transform: scale(1.1);
+}
+.Content4{
+	width:225px;
+	height: 195px;
+	float: left;
+}
+.Content4:hover{
+	transform: scale(1.1);
+}
+.first_font{
+	color:black;
+	font-size:14px;
+}
+.first_font:hover{
+	color: green;
+}
+.second_font{
+	color:#999999;
+	font-size: 12px;
+}

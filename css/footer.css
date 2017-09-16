@@ -1,0 +1,63 @@
+.footer{
+	width:100%;
+	height:298px;
+	background-color:#474443;
+}
+.footerContent{
+	width:1205px;
+	height:298px;
+	margin: 0px auto;
+}
+.footerContent span{
+	font-size: 10px;
+}
+.WyImage{
+	width:430px;
+	height:46px;
+	background-image:url(../img/FooterWY.png);
+	background-size: 430px 46px;
+	position: relative;
+	top:50px;
+}
+.wyIntroduction{
+	width:430px;
+	position: relative;
+	top:60px;
+}
+.wyIntroduction span{
+	color:white;
+	font-size: 10px;
+}
+.rightChoose{
+	width:509px;
+	height:80px;
+	position: absolute;
+	right:72px;
+}
+.rightChoose a{
+	color:white;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.rightChoose a:hover{
+	text-decoration: underline;
+}
+.downloadApp{
+	height: 32px;
+	position: relative;
+	left:160px;
+}
+.downloadApp span{
+	font-size: 10px;
+	color:white;
+	position: relative;
+	top:-10px;
+}
+.aMargin{
+	margin-left:10px;
+}
+.imageBorder{
+	border:1px solid white;
+	float: left;
+}

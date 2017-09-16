@@ -1,0 +1,80 @@
+.popClass{
+	width: 1205px;
+	height:486px;
+	margin:20px auto 40px;
+}
+.leftLongImage{
+	width:225px;
+	height:486px;
+	background-image: url(../img/imgsize.ph.126.net.jpg);
+	background-size: 225px 486px;
+	float: left;
+}
+.sixPopClass{
+	width:710px;
+	height:486px;
+	float: left;
+	margin-left: 20px;
+}
+.goodClass{
+	width:225px;
+	height:220px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.goodClassImage{
+	width:225px;
+	height:140px;
+}
+.goodClassImage:hover{
+	transform: scale(1.1);
+}
+.classTitle{
+	color: black;
+	font-size: 14px;
+}
+.classTitle:hover{
+	color:green;
+}
+.classTeacher{
+	color:#999999;
+	font-size: 12px;;
+}
+.classValue{
+	color: red;
+	font-size: 20px;
+}
+.rightLongImage{
+	width:225px;
+	height:486px;
+	float: left;
+	margin-left:25px;
+}
+.firstFont{
+	width:225px;
+	height:142px;
+	background-color:#DDB602;
+}
+.firstFont ol{
+	padding-top:20px;
+	padding-left:20px;
+	padding-bottom: 20px;
+	list-style: none;
+}
+.firstFont ol li {
+	font-size: 14px;
+	margin:5px;
+}
+.firstFont ol li a{
+	color: white;
+}
+.firstFont ol li a:hover{
+	text-decoration: underline;
+}
+.secondImage{
+	width:225px;
+	height:344px;
+	background-image:url(../img/imgsize.ph.126.jpg);
+	background-size:225px 344px;
+}

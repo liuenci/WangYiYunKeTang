@@ -1,0 +1,41 @@
+.fiveFamousTeacher{
+	width:1205px;
+	height:240px;
+	margin:40px auto 20px;
+}
+.teacherImage{
+	margin-right: 1px;
+	float: left;
+}
+.teacherImage:hover{
+	transform: scale(1.1);
+}
+.mechanism{
+	width: 240px;
+	height: 240px;
+	background-color:#4D94DD;
+	float: left;
+}
+.mechanism ol{
+	padding-top:10px;
+}
+.mechanism ol li{
+	font-size: 14px;
+	list-style: none;
+	padding:6px 15px;
+	color:white;
+}
+.mechanism ol li a{
+	color: white;
+}
+.mechanism ol li a:hover{
+	text-decoration: underline;
+}
+.mechanism_1{
+	height: 240px;
+	float: left;
+}
+.mechanism_2{
+	height: 240px;
+	float: left;
+}

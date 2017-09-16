@@ -1,0 +1,505 @@
+	*{
+		margin:0px; 
+		padding:0px;
+	}
+	a{
+		text-decoration: none;
+		font-family: "微软雅黑";
+	}
+	span{
+		font-family: "微软雅黑";
+	}
+	.wy{ 
+		width:1349px; 
+		height:162px; 
+		background-color:#FFFFFF;
+	}
+	.wyTop{ 
+		width:1205px; 
+		height:110px; 
+		margin:0 auto;
+	}
+	.signal{
+		width:224px;
+		height:110px;
+		background-image:url(../img/网易云课堂.png);
+		background-repeat: no-repeat;
+		background-position:center;
+		float:left;
+	}
+	.study{
+		width:350px;
+		height:110px;
+		float:right;
+	}
+	.littleStudy{
+		width:350px;
+		height:36px;
+		position:absolute;
+		margin:40px 0px;
+	}
+	.fourContent{
+		width:60px;
+		height:36px;
+		line-height:36px;
+		font-size: 14px;
+		float:left;
+		text-align: center;
+		margin-left:5px;
+	}
+	.end{
+		text-align: left;
+		width:100px;
+		background-image: url(../img/登陆&注册.png);
+		background-repeat: no-repeat;
+		background-position: 65px center;
+	}
+	.fourContent a{
+		color:black;
+		text-decoration:none;
+	}
+	.fourContent a:hover{
+		color:green;
+	}
+	.wyBottom{ 
+		width:1205px; 
+		height:52px; 
+		background-color:white; 
+		margin:0 auto; 
+		border:1px solid #DDDDDD;
+	}
+	.allClass{ 
+		width:224px; 
+		height:52px; 
+		background-color:green; 
+		color:white;  
+		line-height:52px; 
+		float:left;
+	}
+	.allPicturePosition{ 
+		position:relative;
+		top:7px;
+		left:15px; 
+	}
+	.allFontPosition{ 
+		margin-left:25px; 
+		color:white; 
+		font-weight:bold; 
+		text-decoration:none;
+	}
+	.allFontPosition:hover{ 
+		color:red;
+	}
+	.fourType{ 
+		width:84px; 
+		height:52px; 
+		line-height:52px; 
+		float:left;
+		text-align:center;
+	}
+	.fourType a{ 
+		text-decoration:none;
+		color:black;
+	}
+	.fourType:hover .fontColor{
+		color:white; 
+	}
+	.fourType:hover{
+		background-color:green;
+	}
+	.classList{
+		width:160px;
+		height:230px;
+		line-height:46px;
+		background-color: white;
+		border:1px solid #DDDDDD;
+		position:relative;
+		right: 25px;
+		z-index: 1;
+		display: none;
+	}
+	.fourType:hover .classList{
+		display: block;
+	}
+	.classContent{
+		width: 160px;
+		height:45px;
+		border-bottom:1px solid #DDDDDD;
+		margin:0 auto;
+	}
+	.classContent a{
+		color:black;
+	}
+	.classContent:hover{
+		background-color: #DDDDDD;
+	}
+	.classContent:hover a{
+		color:green;
+	}
+	.no-border{
+		border-bottom:none;
+	}
+	.QR-code{
+		width:352px;
+		height:182px;
+		border:1px solid #DDDDDD;
+		background-image: url(../img/扫码安装.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		position:relative;
+		right:50px;
+		z-index: 1;
+		display: none;
+	}
+	.APPdownload:hover .QR-code{
+		display: block;
+	}
+	.start{ 
+		margin-left:20px;
+	}
+	.research{
+		width:216px;
+		height:36px;
+		border:1px solid #49af4f;
+		float:right;
+		position:relative;
+		top:6px;
+		right:6px;
+	}
+	.kecheng{
+		width:49px;
+		height:36px;
+		line-height:36px;
+		background-image:url(../img/三角形.png);
+		background-size:15px;
+		background-repeat:no-repeat;
+		background-position:35px center;
+		float:left;
+	}
+	.researchKuang{
+		width:34px;
+		height:34px;
+		float:right;
+		text-align: right;
+	}
+	
+	
+	
+	.BgTransform{
+		position:relative;
+	}
+	.sevenTransform_1{
+		width:1350px;
+		height:400px;
+		background-image:url(../img/3个月圆你CEO梦想.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:1350px 400px;
+		position:absolute;
+	}
+	.sevenTransform_2{
+		width:1350px;
+		height:400px;
+		background-image:url(../img/谁说手机不能拍大片.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:1350px 400px;
+		position:absolute;
+	}
+	.sevenTransform_3{
+		width:1350px;
+		height:400px;
+		background-image:url(../img/全面性教育.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:1350px 400px;
+		position:absolute;
+	}
+	.sevenTransform_4{
+		width:1350px;
+		height:400px;
+		background-image:url(../img/数据分析.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:1350px 400px;
+		position:absolute;
+	}
+	.sevenTransform_5{
+		width:1350px;
+		height:400px;
+		background-image:url(../img/微专业招生.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:1350px 400px;
+		position:absolute;
+	}
+	.sevenTransform_6{
+		width:1350px;
+		height:400px;
+		background-image:url(../img/职场加速器.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:1350px 400px;
+		position:absolute;
+	}
+	.sevenTransform_7{
+		width:1350px;
+		height:400px;
+		background-image:url(../img/轻松玩转office软件.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:1350px 400px;
+		position:absolute;
+	}
+	.BgTransform div span{
+		background-color:#BACEFC;
+		position:absolute;
+		padding:5px;
+		
+	}
+	.TransformSign_1{
+		top:360px;
+		left:650px;
+		z-index:5;
+	}
+	.sevenTransform_1:hover{
+		z-index:3;
+	}
+	.sevenTransform_1:hover span{
+		color:#FFFFFF;
+		padding-top:10px;
+	}
+	.TransformSign_2{
+		top:360px;
+		left:670px;
+		z-index:5;
+	}
+	.sevenTransform_2:hover{
+		z-index:3;
+	}
+	.sevenTransform_2:hover span{
+		color:#FFFFFF;
+		padding-top:10px;
+	}
+	.TransformSign_3{
+		top:360px;
+		left:690px;
+		z-index:5;
+	}
+	.sevenTransform_3:hover{
+		z-index:3;
+	}
+	.sevenTransform_3:hover span{
+		color:#FFFFFF;
+		padding-top:10px;
+	}
+	.TransformSign_4{
+		top:360px;
+		left:710px;
+		z-index:5;
+	}
+	.sevenTransform_4:hover{
+		z-index:3;
+	}
+	.sevenTransform_4:hover span{
+		color:#FFFFFF;
+		padding-top:10px;
+	}
+	.TransformSign_5{
+		top:360px;
+		left:730px;
+		z-index:5;
+	}
+	.sevenTransform_5:hover{
+		z-index:3;
+	}
+	.sevenTransform_5:hover span{
+		color:#FFFFFF;
+		padding-top:10px;
+	}
+	.TransformSign_6{
+		top:360px;
+		left:750px;
+		z-index:5;
+	}
+	.sevenTransform_6:hover{
+		z-index:3;
+	}
+	.sevenTransform_6:hover span{
+		color:#FFFFFF;
+		padding-top:10px;
+	}
+	.TransformSign_7{
+		top:360px;
+		left:770px;
+		z-index:5;
+	}
+	.sevenTransform_7:hover{
+		z-index:3;
+	}
+	.sevenTransform_7:hover span{
+		color:#FFFFFF;
+		padding-top:10px;
+	}
+	.sixContent{
+		width:224px;
+		height:400px;
+		background-color:#000000;
+		margin-left:72px;
+		opacity: 0.7;
+		position:relative;
+		z-index: 3;
+	}
+	.mainContent{
+		width:224px;
+		height:66px;
+		border-bottom: 1px solid #DDDDDD;
+	}
+	.mainContent:hover{
+		background-color: white;
+		opacity:1;
+	}
+	.mainContent:hover a{
+		color:black;
+	}
+	.threeContent{
+		float:left;
+		height:66px;
+		line-height: 66px;
+		margin-left: 10px;
+	}
+	.threeContent:hover a{
+		text-decoration: underline;
+	}
+	.secondList{
+		width:983px;
+		height:400px;
+		position:absolute;
+		background-color: white;
+		top:0px;
+		left:224px;		
+		display: none;
+	}
+	.mainContent:hover .secondList{
+		display: block;
+	}
+	.innerList{
+		width:632px;
+		height:400px;
+		margin-left:42px ;
+	}
+	.innerTop{
+		width:632px;
+		height:66px;
+	}
+	.redContent_1{
+		width:146px;
+		height:32px;
+		line-height: 32px;
+		border: 1px solid orange;
+		float:left;
+		text-align: center;
+		margin:15px 15px 0px 40px;
+	}
+	.redContent_2{
+		width:146px;
+		height:32px;
+		line-height: 32px;
+		border: 1px solid orange;
+		float:left;
+		text-align: center;
+		margin:15px 15px 0px 0px;
+	}
+	.redContent_1:hover{
+		background-color:orange;
+	}
+	.redContent_2:hover{
+		background-color:orange;
+	}
+	.redContent_1 a{
+		margin: 0px auto;
+	}
+	.threeContent a{
+		text-decoration: none;
+		color:white;
+		font-size: 14px;
+	}
+	.sixInnerContent{
+		width:632px;
+		height:35px;
+		line-height:35px;
+		margin-top:20px;
+	}
+	.sixInnerContent ol li{
+		float:left;
+		list-style: none;
+		font-size:12px;
+	}
+	.start1{
+		font-size: 15px;
+	}
+	.sixInnerContent ol li a:hover{
+		text-decoration: underline;
+	}
+	.first{
+		margin-left:15px;
+	}
+	.first a{
+		font-size: 17px;
+	}
+	.ContentRight{
+		width:226px;
+		height:340px;
+		position:absolute;
+		z-index:4;
+		top:30px;
+		right:70px;
+	}
+	.topMainImage{
+		width: 225px;
+		height:120px;
+		background-image: url(../img/xinjiaoyu.jpg);
+		background-size:226px 120px;
+		background-repeat: no-repeat;
+	}
+	.topMainFont{
+		width:225px;
+		height:166px;
+		background-color: white;
+	}
+	.topMainFont a{
+		color:black;
+		font-size:14px;
+	}
+	.topMainFont ol li{
+		padding-left:15px;
+		padding-top:10px;
+		list-style: none;
+	}
+	.twoChoose{
+		width:223px;
+		height:50px;
+		background-color: #F8F8F8;
+		border: 1px solid #999999;
+	}
+	.twoChooseFont1{
+		width:110px;
+		height:50px;
+		border-right: 1px solid #999999;
+		float: left;
+		text-align: center;
+	}
+	.twoChooseFont1 a{
+		height: 50px;
+		line-height:50px;
+	}
+	.twoChooseFont2{
+		width:110px;
+		height:50px;
+		float: left;
+		text-align: center;
+	}
+	.twoChooseFont2 a{
+		height: 50px;
+		line-height:50px;
+	}

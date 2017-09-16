@@ -1,0 +1,46 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.leftMarginAndFont{
+	margin:72px;
+	font-size: 24px;
+}
+.freeClass{
+	width:1205px;
+	height:205px;
+	margin:40px auto;
+}
+.freeClassImage{
+	width:225px;
+	height:205px;
+	float: left;
+}
+.ImageAndFont{
+	width:225px;
+	height:205px;
+	float: left;
+	margin-left:20px;
+}
+.topImage{
+	width:225px;
+	height:140px;
+	background-image:url(../img/69646796-7a48-4d56-a19e-35b507370d0e.png);
+	background-size:225px 140px;
+}
+.topImage:hover{
+	transform: scale(1.1);
+}
+.bottomFont{
+	margin-top:10px;
+}
+.topFont{
+	color:black;
+}
+.topFont:hover{
+	color:green;
+}
+.endFont{
+	color:#999;
+	font-size: 13px;
+}
